@@ -18,6 +18,8 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(url)
 
+WebUI.maximizeWindow()
+
 WebUI.click(findTestObject('Object Repository/GSM Login/Page_GSM Portal/button_Log in'))
 
 WebUI.delay(3)

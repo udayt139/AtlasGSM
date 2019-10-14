@@ -24,11 +24,7 @@ WebUI.setText(findTestObject('Object Repository/Create Offer/Page_Offers/input_O
 
 WebUI.click(findTestObject('Object Repository/Create Offer/Page_Offers/input_Marketing Category_marketingCategory'))
 
-WebUI.setText(findTestObject('Object Repository/Create Offer/Page_Offers/textarea_Offer Description_description'), 'a')
-
-WebUI.setText(findTestObject('Object Repository/Create Offer/Page_Offers/textarea_a'), 'ab')
-
-WebUI.setText(findTestObject('Object Repository/Create Offer/Page_Offers/textarea_ab'), 'abc')
+WebUI.setText(findTestObject('Object Repository/Create Offer/Page_Offers/textarea_Offer Description_description'), 'abc')
 
 WebUI.setText(findTestObject('Object Repository/Create Offer/Page_Offers/input_Objects set to expire will be automatically archived_expiration'), 
     '10/15/2019')
@@ -39,23 +35,11 @@ WebUI.click(findTestObject('Object Repository/Create Offer/Page_Offers/a_English
 
 WebUI.click(findTestObject('Object Repository/Create Offer/Page_Offers/button_Next'))
 
-WebUI.setText(findTestObject('Object Repository/Create Offer/Page_Offers/textarea_Title_title'), 'a')
+WebUI.setText(findTestObject('Object Repository/Create Offer/Page_Offers/textarea_Title_title'), 'abc')
 
-WebUI.setText(findTestObject('Object Repository/Create Offer/Page_Offers/textarea_a_1'), 'ab')
+WebUI.setText(findTestObject('Object Repository/Create Offer/Page_Offers/textarea_Subtitle_subtitle'), 'abc')
 
-WebUI.setText(findTestObject('Object Repository/Create Offer/Page_Offers/textarea_ab_1'), 'abc')
-
-WebUI.setText(findTestObject('Object Repository/Create Offer/Page_Offers/textarea_Subtitle_subtitle'), 'a')
-
-WebUI.setText(findTestObject('Object Repository/Create Offer/Page_Offers/textarea_a_2'), 'ab')
-
-WebUI.setText(findTestObject('Object Repository/Create Offer/Page_Offers/textarea_ab_2'), 'abc')
-
-WebUI.setText(findTestObject('Object Repository/Create Offer/Page_Offers/textarea_Body_body'), 'a')
-
-WebUI.setText(findTestObject('Object Repository/Create Offer/Page_Offers/textarea_a_3'), 'ab')
-
-WebUI.setText(findTestObject('Object Repository/Create Offer/Page_Offers/textarea_ab_3'), 'abc')
+WebUI.setText(findTestObject('Object Repository/Create Offer/Page_Offers/textarea_Body_body'), 'abc')
 
 WebUI.setText(findTestObject('Object Repository/Create Offer/Page_Offers/input_Offer_offer'), '123')
 
@@ -64,11 +48,7 @@ WebUI.click(findTestObject('Object Repository/Create Offer/Page_Offers/button_Se
 WebUI.click(findTestObject('Object Repository/Create Offer/Page_Offers/a_No Expiration Date'))
 
 WebUI.setText(findTestObject('Object Repository/Create Offer/Page_Offers/textarea_Terms  Conditions_termsAndConditions'), 
-    'a')
-
-WebUI.setText(findTestObject('Object Repository/Create Offer/Page_Offers/textarea_a_4'), 'ab')
-
-WebUI.setText(findTestObject('Object Repository/Create Offer/Page_Offers/textarea_ab_4'), 'abc')
+    'abc')
 
 WebUI.click(findTestObject('Object Repository/Create Offer/Page_Offers/button_Create'))
 
