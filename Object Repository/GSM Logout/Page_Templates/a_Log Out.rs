@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='app']/main/div/div/nav/div/div[4]/ul/li[2]/ul/li/a</value>
+         <value>//a[text()='Log Out']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

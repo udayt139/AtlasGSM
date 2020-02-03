@@ -13,14 +13,16 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
-WebUI.delay(5)
+not_run: WebUI.click(findTestObject('Create Offer/Page_Dashboard/div_Content'))
 
-WebUI.delay(2)
+not_run: WebUI.click(findTestObject('Create Offer/Page_Templates/a_Offers'))
 
-WebUI.click(findTestObject('Delete Offer/Page_Offers/div_Most Recent Uploads_library-table-checkbox no-label checkbox'))
+WebUI.click(findTestObject('Delete Offer/hamburger'))
 
-WebUI.click(findTestObject('Object Repository/Delete Offer/Page_Offers/span_Delete'))
+WebUI.click(findTestObject('Delete Offer/delete'))
 
 WebUI.click(findTestObject('Object Repository/Delete Offer/Page_Offers/button_Yes'))
 

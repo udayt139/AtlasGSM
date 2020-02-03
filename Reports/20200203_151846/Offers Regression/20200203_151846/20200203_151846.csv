@@ -1,0 +1,45 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Offers Regression,Chrome 79.0.3945.130,,,2020-02-03 15:18:55,2020-02-03 15:19:57,1m - 1.783s,FAILED
+,,,,,,,
+Test Cases/Test Scenarios/Modules/Login/GSM Login,Chrome 79.0.3945.130,,,2020-02-03 15:18:56,2020-02-03 15:19:26,30.061s,PASSED
+"openBrowser("""")",Chrome 79.0.3945.130,,,2020-02-03 15:18:58,2020-02-03 15:19:06,7.471s,PASSED
+navigateToUrl(url),Chrome 79.0.3945.130,,,2020-02-03 15:19:06,2020-02-03 15:19:13,6.808s,PASSED
+maximizeWindow(),Chrome 79.0.3945.130,,,2020-02-03 15:19:13,2020-02-03 15:19:17,4.179s,PASSED
+"setText(findTestObject(""Object Repository/GSM Login/Page_GSM Login/input_Email Address_email""), username)",Chrome 79.0.3945.130,,,2020-02-03 15:19:17,2020-02-03 15:19:18,0.737s,PASSED
+delay(2),Chrome 79.0.3945.130,,,2020-02-03 15:19:18,2020-02-03 15:19:20,2.038s,PASSED
+"setText(findTestObject(""Object Repository/GSM Login/Page_GSM Login/input_Password_password""), password)",Chrome 79.0.3945.130,,,2020-02-03 15:19:20,2020-02-03 15:19:20,0.548s,PASSED
+"click(findTestObject(""Object Repository/GSM Login/Page_GSM Login/button_Log In""))",Chrome 79.0.3945.130,,,2020-02-03 15:19:20,2020-02-03 15:19:21,0.648s,PASSED
+delay(5),Chrome 79.0.3945.130,,,2020-02-03 15:19:21,2020-02-03 15:19:26,5.005s,PASSED
+,,,,,,,
+Test Cases/Test Scenarios/Modules/Content Management/OFFERS/Create Offer,Chrome 79.0.3945.130,,,2020-02-03 15:19:26,2020-02-03 15:19:55,28.839s,PASSED
+"click(findTestObject(""Object Repository/Create Offer/Page_Dashboard/div_Content""))",Chrome 79.0.3945.130,,,2020-02-03 15:19:27,2020-02-03 15:19:28,1.575s,PASSED
+"click(findTestObject(""Object Repository/Create Offer/Page_Templates/a_Offers""))",Chrome 79.0.3945.130,,,2020-02-03 15:19:28,2020-02-03 15:19:33,4.456s,PASSED
+"click(findTestObject(""Object Repository/Create Offer/Page_Offers/a_New Offer""))",Chrome 79.0.3945.130,,,2020-02-03 15:19:33,2020-02-03 15:19:34,1.538s,PASSED
+"setText(findTestObject(""Object Repository/Create Offer/Page_Offers/input_Offer Name_name""), OfferName)",Chrome 79.0.3945.130,,,2020-02-03 15:19:34,2020-02-03 15:19:37,2.446s,PASSED
+"click(findTestObject(""Object Repository/Create Offer/Page_Offers/input_Marketing Category_marketingCategory""))",Chrome 79.0.3945.130,,,2020-02-03 15:19:37,2020-02-03 15:19:38,0.693s,PASSED
+"setText(findTestObject(""Object Repository/Create Offer/Page_Offers/textarea_Offer Description_description""), OfferDescription)",Chrome 79.0.3945.130,,,2020-02-03 15:19:38,2020-02-03 15:19:40,1.991s,PASSED
+"setText(findTestObject(""Object Repository/Create Offer/Page_Offers/input_Objects set to expire will be automatically archived_expiration""), Expiration)",Chrome 79.0.3945.130,,,2020-02-03 15:19:40,2020-02-03 15:19:40,0.898s,PASSED
+"click(findTestObject(""Object Repository/Create Offer/Page_Offers/button_Select""))",Chrome 79.0.3945.130,,,2020-02-03 15:19:40,2020-02-03 15:19:41,0.558s,PASSED
+"click(findTestObject(""Object Repository/Create Offer/Page_Offers/a_English (US)""))",Chrome 79.0.3945.130,,,2020-02-03 15:19:41,2020-02-03 15:19:42,0.662s,PASSED
+"click(findTestObject(""Object Repository/Create Offer/Page_Offers/button_Next""))",Chrome 79.0.3945.130,,,2020-02-03 15:19:42,2020-02-03 15:19:42,0.735s,PASSED
+"setText(findTestObject(""Object Repository/Create Offer/Page_Offers/textarea_Title_title""), Title)",Chrome 79.0.3945.130,,,2020-02-03 15:19:42,2020-02-03 15:19:47,4.436s,PASSED
+"setText(findTestObject(""Object Repository/Create Offer/Page_Offers/textarea_Subtitle_subtitle""), Subtitle)",Chrome 79.0.3945.130,,,2020-02-03 15:19:47,2020-02-03 15:19:48,1.169s,PASSED
+"setText(findTestObject(""Object Repository/Create Offer/Page_Offers/textarea_Body_body""), Body)",Chrome 79.0.3945.130,,,2020-02-03 15:19:48,2020-02-03 15:19:49,1.111s,PASSED
+"setText(findTestObject(""Object Repository/Create Offer/Page_Offers/input_Offer_offer""), OfferValue)",Chrome 79.0.3945.130,,,2020-02-03 15:19:49,2020-02-03 15:19:51,1.582s,PASSED
+"click(findTestObject(""Object Repository/Create Offer/Page_Offers/button_Select_1""))",Chrome 79.0.3945.130,,,2020-02-03 15:19:51,2020-02-03 15:19:51,0.672s,PASSED
+"click(findTestObject(""Object Repository/Create Offer/Page_Offers/a_No Expiration Date""))",Chrome 79.0.3945.130,,,2020-02-03 15:19:51,2020-02-03 15:19:52,0.707s,PASSED
+"setText(findTestObject(""Object Repository/Create Offer/Page_Offers/textarea_Terms  Conditions_termsAndConditions""), TermsAndConditions)",Chrome 79.0.3945.130,,,2020-02-03 15:19:52,2020-02-03 15:19:54,1.834s,PASSED
+"click(findTestObject(""Object Repository/Create Offer/Page_Offers/button_Create""))",Chrome 79.0.3945.130,,,2020-02-03 15:19:54,2020-02-03 15:19:55,0.719s,PASSED
+,,,,,,,
+Test Cases/Test Scenarios/Modules/Content Management/OFFERS/Edit Offer,Chrome 79.0.3945.130,,,2020-02-03 15:19:55,2020-02-03 15:19:56,1.301s,FAILED
+"click(findTestObject(""Edit Offer/Page_Dashboard/div_Content""))",Chrome 79.0.3945.130,,,2020-02-03 15:19:55,2020-02-03 15:19:55,0.004s,NOT_RUN
+"click(findTestObject(""Create Offer/Page_Templates/a_Offers""))",Chrome 79.0.3945.130,,,2020-02-03 15:19:55,2020-02-03 15:19:55,0.001s,NOT_RUN
+"click(findTestObject(""hamburger""))",Chrome 79.0.3945.130,,,2020-02-03 15:19:55,2020-02-03 15:19:56,0.992s,FAILED
+,,,,,,,
+Test Cases/Test Scenarios/Modules/Content Management/OFFERS/Delete Offer,Chrome 79.0.3945.130,,,2020-02-03 15:19:56,2020-02-03 15:19:57,0.596s,FAILED
+"click(findTestObject(""Create Offer/Page_Dashboard/div_Content""))",Chrome 79.0.3945.130,,,2020-02-03 15:19:56,2020-02-03 15:19:56,0.004s,NOT_RUN
+"click(findTestObject(""Create Offer/Page_Templates/a_Offers""))",Chrome 79.0.3945.130,,,2020-02-03 15:19:56,2020-02-03 15:19:56,0.002s,NOT_RUN
+"click(findTestObject(""hamburger""))",Chrome 79.0.3945.130,,,2020-02-03 15:19:56,2020-02-03 15:19:57,0.134s,FAILED
+,,,,,,,
+Test Cases/Test Scenarios/Modules/Logout/GSM Logout,Chrome 79.0.3945.130,,,2020-02-03 15:19:57,2020-02-03 15:19:57,0.276s,FAILED
+"click(findTestObject(""GSM Logout/Page_Templates/a_Help_user-panel-dropdown-4""))",Chrome 79.0.3945.130,,,2020-02-03 15:19:57,2020-02-03 15:19:57,0.065s,FAILED

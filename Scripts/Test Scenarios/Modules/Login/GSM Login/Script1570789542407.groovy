@@ -20,10 +20,6 @@ WebUI.navigateToUrl(url)
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Object Repository/GSM Login/Page_GSM Portal/button_Log in'))
-
-WebUI.delay(3)
-
 WebUI.setText(findTestObject('Object Repository/GSM Login/Page_GSM Login/input_Email Address_email'), username)
 
 WebUI.delay(2)
@@ -33,6 +29,4 @@ WebUI.setText(findTestObject('Object Repository/GSM Login/Page_GSM Login/input_P
 WebUI.click(findTestObject('Object Repository/GSM Login/Page_GSM Login/button_Log In'))
 
 WebUI.delay(5)
-
-WebUI.verifyElementText(findTestObject('GSM Login/div_Welcome Sankaran'), 'Welcome, Sankaran')
 

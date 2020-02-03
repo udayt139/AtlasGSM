@@ -14,19 +14,19 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.delay(5)
+not_run: WebUI.click(findTestObject('Edit Offer/Page_Dashboard/div_Content'))
 
-WebUI.click(findTestObject('Object Repository/Edit Offer/Page_Templates/a_Offers'))
+not_run: WebUI.click(findTestObject('Create Offer/Page_Templates/a_Offers'))
 
-WebUI.click(findTestObject('Object Repository/Edit Offer/Page_Offers/a_abc'))
+WebUI.click(findTestObject('Edit Offer/hamburger'))
 
-WebUI.click(findTestObject('Object Repository/Edit Offer/Page_Offers/button_Yes Edit'))
+WebUI.click(findTestObject('Edit Offer/Page_Offers/edit'))
 
-WebUI.click(findTestObject('Object Repository/Edit Offer/Page_Offers/input_Aquisition_marketingCategory'))
+WebUI.click(findTestObject('Edit Offer/Page_Offers/button_Yes Edit'))
+
+WebUI.click(findTestObject('Create Offer/Page_Offers/radiobutton_Retention'))
 
 WebUI.click(findTestObject('Object Repository/Edit Offer/Page_Offers/button_Next'))
-
-WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Edit Offer/Page_Offers/button_Make Active'))
 

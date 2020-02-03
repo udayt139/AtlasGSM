@@ -11,58 +11,97 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>3f35d27d-f2d5-4c71-a7e8-fedd62875bbc</testSuiteGuid>
    <testCaseLink>
-      <guid>100a9766-7ed6-48e7-983f-001340e6a404</guid>
+      <guid>3ef9f516-2636-4437-aa03-83c9dc3c416b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Test Scenarios/Modules/Login/GSM Login</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>6457816a-46c2-4291-a2e7-151bf6506d0e</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/Offers Regression/GSM Login</testDataId>
-      </testDataLink>
       <variableLink>
-         <testDataLinkId>6457816a-46c2-4291-a2e7-151bf6506d0e</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>url</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>f4abdd1c-cd87-420f-ad3e-a06ae16f8d94</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>6457816a-46c2-4291-a2e7-151bf6506d0e</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>username</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>548ee1ab-c525-46d0-acbf-2e6338864b56</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>6457816a-46c2-4291-a2e7-151bf6506d0e</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>password</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>eee78943-e84f-432f-9287-e7909419c2cc</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>18fd5c93-de0c-45ce-82c1-fd4ec6c93434</guid>
+      <guid>eb6bb8ab-5762-4c5b-852a-f987b64d5c91</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Test Scenarios/Modules/Content Management/OFFERS/Create Offer</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a421dff5-64c8-44e3-8a13-3e5fc958f65c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>345f8e25-6000-4bcb-90c0-1ade9bea5f78</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0dc55732-0c3e-4e26-a011-2d14d90afc23</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4a6459a0-5fda-485f-8ba7-9b224aab6fe8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>11636c2c-f530-4c22-b42e-e5905647b9ff</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7a1dc46c-c387-4392-b238-124db3fb15ea</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e5bfad5d-bc31-4ed5-8946-5aef15d83a63</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d7fe14e4-42c0-415c-a781-07d3c2dfc368</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>255ccd1d-2afe-491f-822a-7ebb7752be3f</guid>
+      <guid>058aafc8-8e3c-488f-b06d-62fa8420ff42</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Test Scenarios/Modules/Content Management/OFFERS/Edit Offer</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>e150138c-1d61-4c0b-b1d5-503644bddb25</guid>
+      <guid>1a89de44-564c-47dc-a43e-3d2660d5ac5b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Test Scenarios/Modules/Content Management/OFFERS/Delete Offer</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>f7e0da1e-6089-410c-83fa-e79ac0b6aaa5</guid>
+      <guid>581bbdd8-1b3f-49b6-9b23-2d8b966dd9d7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Test Scenarios/Modules/Logout/GSM Logout</testCaseId>

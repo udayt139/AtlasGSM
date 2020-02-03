@@ -5,4 +5,60 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>31a4007e-71a9-49f2-b439-282604f463db</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Offers Regression/Create Offer').getValue(3, 1)</defaultValue>
+      <description></description>
+      <id>a421dff5-64c8-44e3-8a13-3e5fc958f65c</id>
+      <masked>false</masked>
+      <name>OfferName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Offers Regression/Create Offer').getValue(4, 1)</defaultValue>
+      <description></description>
+      <id>345f8e25-6000-4bcb-90c0-1ade9bea5f78</id>
+      <masked>false</masked>
+      <name>OfferDescription</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Offers Regression/Create Offer').getValue(5, 1)</defaultValue>
+      <description></description>
+      <id>0dc55732-0c3e-4e26-a011-2d14d90afc23</id>
+      <masked>false</masked>
+      <name>Expiration</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Offers Regression/Create Offer').getValue(6, 1)</defaultValue>
+      <description></description>
+      <id>4a6459a0-5fda-485f-8ba7-9b224aab6fe8</id>
+      <masked>false</masked>
+      <name>Title</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Offers Regression/Create Offer').getValue(7, 1)</defaultValue>
+      <description></description>
+      <id>11636c2c-f530-4c22-b42e-e5905647b9ff</id>
+      <masked>false</masked>
+      <name>Subtitle</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Offers Regression/Create Offer').getValue(8, 1)</defaultValue>
+      <description></description>
+      <id>7a1dc46c-c387-4392-b238-124db3fb15ea</id>
+      <masked>false</masked>
+      <name>Body</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Offers Regression/Create Offer').getValue(9, 1)</defaultValue>
+      <description></description>
+      <id>e5bfad5d-bc31-4ed5-8946-5aef15d83a63</id>
+      <masked>false</masked>
+      <name>OfferValue</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Offers Regression/Create Offer').getValue(10, 1)</defaultValue>
+      <description></description>
+      <id>d7fe14e4-42c0-415c-a781-07d3c2dfc368</id>
+      <masked>false</masked>
+      <name>TermsAndConditions</name>
+   </variable>
 </TestCaseEntity>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='app']/main/div/div[2]/div[2]/form/div/div[2]/div[3]/div/ul/li/a</value>
+         <value>//a[text()='English (US)']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

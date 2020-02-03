@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@name='marketingCategory']</value>
+         <value>//span[text()='Aquisition']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

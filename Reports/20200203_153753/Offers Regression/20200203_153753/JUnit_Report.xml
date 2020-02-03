@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Offers Regression" time="95.519" tests="5" failures="0" errors="0">
+   <testsuite name="Offers Regression" tests="5" failures="0" errors="0" time="95.519" timestamp="2020-02-03 15:38:01" hostname="Dell - DESKTOP-A4R0EHC" id="Test Suites/Offers Regression">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Dell\\git\\1\\Reports\\20200203_153753\\Offers Regression\\20200203_153753"/>
+         <property name="logFiles" value="C:\\Users\\Dell\\git\\1\\Reports\\20200203_153753\\Offers Regression\\20200203_153753\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Dell - DESKTOP-A4R0EHC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.0.4.1"/>
+         <property name="browser" value="Chrome 79.0.3945.130"/>
+         <property name="hostAddress" value="192.168.0.102"/>
+         <property name="sessionId" value="18b1e4a902da5d66967d99120f97df92"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Test Scenarios/Modules/Login/GSM Login" time="29.149" classname="Test Cases/Test Scenarios/Modules/Login/GSM Login" status="PASSED">
+         <system-out><![CDATA[2020-02-03 15:38:01 - [TEST_CASE][PASSED] - Test Cases/Test Scenarios/Modules/Login/GSM Login: Test Cases/Test Scenarios/Modules/Login/GSM Login
+
+2020-02-03 15:38:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-02-03 15:38:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-02-03 15:38:04 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-02-03 15:38:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-02-03 15:38:11 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://sandbox.gsm.auto/' successfully
+
+2020-02-03 15:38:17 - [MESSAGE][PASSED] - Navigate to 'https://sandbox.gsm.auto/' successfully
+
+2020-02-03 15:38:17 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-02-03 15:38:21 - [MESSAGE][PASSED] - Current window maximized
+
+2020-02-03 15:38:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/GSM Login/Page_GSM Login/input_Email Address_email"), username): Text 'sankaran@totient.co.in' is set on object 'Object Repository/GSM Login/Page_GSM Login/input_Email Address_email'
+
+2020-02-03 15:38:22 - [MESSAGE][PASSED] - Text 'sankaran@totient.co.in' is set on object 'Object Repository/GSM Login/Page_GSM Login/input_Email Address_email'
+
+2020-02-03 15:38:22 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-02-03 15:38:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-02-03 15:38:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/GSM Login/Page_GSM Login/input_Password_password"), password): Text 'sandbox85!' is set on object 'Object Repository/GSM Login/Page_GSM Login/input_Password_password'
+
+2020-02-03 15:38:25 - [MESSAGE][PASSED] - Text 'sandbox85!' is set on object 'Object Repository/GSM Login/Page_GSM Login/input_Password_password'
+
+2020-02-03 15:38:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GSM Login/Page_GSM Login/button_Log In")): Object: 'Object Repository/GSM Login/Page_GSM Login/button_Log In' is clicked on
+
+2020-02-03 15:38:26 - [MESSAGE][PASSED] - Object: 'Object Repository/GSM Login/Page_GSM Login/button_Log In' is clicked on
+
+2020-02-03 15:38:26 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-02-03 15:38:31 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test Scenarios/Modules/Content Management/OFFERS/Create Offer" time="29.063" classname="Test Cases/Test Scenarios/Modules/Content Management/OFFERS/Create Offer" status="PASSED">
+         <system-out><![CDATA[2020-02-03 15:38:31 - [TEST_CASE][PASSED] - Test Cases/Test Scenarios/Modules/Content Management/OFFERS/Create Offer: Test Cases/Test Scenarios/Modules/Content Management/OFFERS/Create Offer
+
+2020-02-03 15:38:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Offer/Page_Dashboard/div_Content")): Object: 'Object Repository/Create Offer/Page_Dashboard/div_Content' is clicked on
+
+2020-02-03 15:38:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Offer/Page_Dashboard/div_Content' is clicked on
+
+2020-02-03 15:38:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Offer/Page_Templates/a_Offers")): Object: 'Object Repository/Create Offer/Page_Templates/a_Offers' is clicked on
+
+2020-02-03 15:38:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Offer/Page_Templates/a_Offers' is clicked on
+
+2020-02-03 15:38:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Offer/Page_Offers/a_New Offer")): Object: 'Object Repository/Create Offer/Page_Offers/a_New Offer' is clicked on
+
+2020-02-03 15:38:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Offer/Page_Offers/a_New Offer' is clicked on
+
+2020-02-03 15:38:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Offer/Page_Offers/input_Offer Name_name"), OfferName): Text 'Offer 1 03-02-2020 15:38:31' is set on object 'Object Repository/Create Offer/Page_Offers/input_Offer Name_name'
+
+2020-02-03 15:38:44 - [MESSAGE][PASSED] - Text 'Offer 1 03-02-2020 15:38:31' is set on object 'Object Repository/Create Offer/Page_Offers/input_Offer Name_name'
+
+2020-02-03 15:38:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Offer/Page_Offers/input_Marketing Category_marketingCategory")): Object: 'Object Repository/Create Offer/Page_Offers/input_Marketing Category_marketingCategory' is clicked on
+
+2020-02-03 15:38:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Offer/Page_Offers/input_Marketing Category_marketingCategory' is clicked on
+
+2020-02-03 15:38:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Offer/Page_Offers/textarea_Offer Description_description"), OfferDescription): Text 'Offer Description - Offer 1' is set on object 'Object Repository/Create Offer/Page_Offers/textarea_Offer Description_description'
+
+2020-02-03 15:38:46 - [MESSAGE][PASSED] - Text 'Offer Description - Offer 1' is set on object 'Object Repository/Create Offer/Page_Offers/textarea_Offer Description_description'
+
+2020-02-03 15:38:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Offer/Page_Offers/input_Objects set to expire will be automatically archived_expiration"), Expiration): Text '05/02/2020' is set on object 'Object Repository/Create Offer/Page_Offers/input_Objects set to expire will be automatically archived_expiration'
+
+2020-02-03 15:38:47 - [MESSAGE][PASSED] - Text '05/02/2020' is set on object 'Object Repository/Create Offer/Page_Offers/input_Objects set to expire will be automatically archived_expiration'
+
+2020-02-03 15:38:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Offer/Page_Offers/button_Select")): Object: 'Object Repository/Create Offer/Page_Offers/button_Select' is clicked on
+
+2020-02-03 15:38:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Offer/Page_Offers/button_Select' is clicked on
+
+2020-02-03 15:38:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Offer/Page_Offers/a_English (US)")): Object: 'Object Repository/Create Offer/Page_Offers/a_English (US)' is clicked on
+
+2020-02-03 15:38:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Offer/Page_Offers/a_English (US)' is clicked on
+
+2020-02-03 15:38:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Offer/Page_Offers/button_Next")): Object: 'Object Repository/Create Offer/Page_Offers/button_Next' is clicked on
+
+2020-02-03 15:38:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Offer/Page_Offers/button_Next' is clicked on
+
+2020-02-03 15:38:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Offer/Page_Offers/textarea_Title_title"), Title): Text 'Title - Offer 1' is set on object 'Object Repository/Create Offer/Page_Offers/textarea_Title_title'
+
+2020-02-03 15:38:52 - [MESSAGE][PASSED] - Text 'Title - Offer 1' is set on object 'Object Repository/Create Offer/Page_Offers/textarea_Title_title'
+
+2020-02-03 15:38:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Offer/Page_Offers/textarea_Subtitle_subtitle"), Subtitle): Text 'Subtitle - Offer 1' is set on object 'Object Repository/Create Offer/Page_Offers/textarea_Subtitle_subtitle'
+
+2020-02-03 15:38:54 - [MESSAGE][PASSED] - Text 'Subtitle - Offer 1' is set on object 'Object Repository/Create Offer/Page_Offers/textarea_Subtitle_subtitle'
+
+2020-02-03 15:38:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Offer/Page_Offers/textarea_Body_body"), Body): Text 'Body - Offer 1' is set on object 'Object Repository/Create Offer/Page_Offers/textarea_Body_body'
+
+2020-02-03 15:38:55 - [MESSAGE][PASSED] - Text 'Body - Offer 1' is set on object 'Object Repository/Create Offer/Page_Offers/textarea_Body_body'
+
+2020-02-03 15:38:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Offer/Page_Offers/input_Offer_offer"), OfferValue): Text 'Offer Value - Offer 1' is set on object 'Object Repository/Create Offer/Page_Offers/input_Offer_offer'
+
+2020-02-03 15:38:56 - [MESSAGE][PASSED] - Text 'Offer Value - Offer 1' is set on object 'Object Repository/Create Offer/Page_Offers/input_Offer_offer'
+
+2020-02-03 15:38:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Offer/Page_Offers/button_Select_1")): Object: 'Object Repository/Create Offer/Page_Offers/button_Select_1' is clicked on
+
+2020-02-03 15:38:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Offer/Page_Offers/button_Select_1' is clicked on
+
+2020-02-03 15:38:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Offer/Page_Offers/a_No Expiration Date")): Object: 'Object Repository/Create Offer/Page_Offers/a_No Expiration Date' is clicked on
+
+2020-02-03 15:38:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Offer/Page_Offers/a_No Expiration Date' is clicked on
+
+2020-02-03 15:38:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Offer/Page_Offers/textarea_Terms  Conditions_termsAndConditions"), TermsAndConditions): Text 'No Conditions' is set on object 'Object Repository/Create Offer/Page_Offers/textarea_Terms  Conditions_termsAndConditions'
+
+2020-02-03 15:38:59 - [MESSAGE][PASSED] - Text 'No Conditions' is set on object 'Object Repository/Create Offer/Page_Offers/textarea_Terms  Conditions_termsAndConditions'
+
+2020-02-03 15:38:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Offer/Page_Offers/button_Create")): Object: 'Object Repository/Create Offer/Page_Offers/button_Create' is clicked on
+
+2020-02-03 15:39:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Offer/Page_Offers/button_Create' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test Scenarios/Modules/Content Management/OFFERS/Edit Offer" time="15.395" classname="Test Cases/Test Scenarios/Modules/Content Management/OFFERS/Edit Offer" status="PASSED">
+         <system-out><![CDATA[2020-02-03 15:39:00 - [TEST_CASE][PASSED] - Test Cases/Test Scenarios/Modules/Content Management/OFFERS/Edit Offer: Test Cases/Test Scenarios/Modules/Content Management/OFFERS/Edit Offer
+
+2020-02-03 15:39:00 - [TEST_STEP][NOT_RUN] - click(findTestObject("Edit Offer/Page_Dashboard/div_Content")): NOT_RUN: click(findTestObject("Edit Offer/Page_Dashboard/div_Content"))
+
+2020-02-03 15:39:00 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Edit Offer/Page_Dashboard/div_Content"))
+
+2020-02-03 15:39:00 - [TEST_STEP][NOT_RUN] - click(findTestObject("Create Offer/Page_Templates/a_Offers")): NOT_RUN: click(findTestObject("Create Offer/Page_Templates/a_Offers"))
+
+2020-02-03 15:39:00 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Create Offer/Page_Templates/a_Offers"))
+
+2020-02-03 15:39:00 - [TEST_STEP][PASSED] - click(findTestObject("Edit Offer/hamburger")): Object: 'Object Repository/Edit Offer/hamburger' is clicked on
+
+2020-02-03 15:39:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Offer/hamburger' is clicked on
+
+2020-02-03 15:39:05 - [TEST_STEP][PASSED] - click(findTestObject("Edit Offer/Page_Offers/edit")): Object: 'Object Repository/Edit Offer/Page_Offers/edit' is clicked on
+
+2020-02-03 15:39:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Offer/Page_Offers/edit' is clicked on
+
+2020-02-03 15:39:05 - [TEST_STEP][PASSED] - click(findTestObject("Edit Offer/Page_Offers/button_Yes Edit")): Object: 'Object Repository/Edit Offer/Page_Offers/button_Yes Edit' is clicked on
+
+2020-02-03 15:39:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Offer/Page_Offers/button_Yes Edit' is clicked on
+
+2020-02-03 15:39:07 - [TEST_STEP][PASSED] - click(findTestObject("Create Offer/Page_Offers/radiobutton_Retention")): Object: 'Object Repository/Create Offer/Page_Offers/radiobutton_Retention' is clicked on
+
+2020-02-03 15:39:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Offer/Page_Offers/radiobutton_Retention' is clicked on
+
+2020-02-03 15:39:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Offer/Page_Offers/button_Next")): Object: 'Object Repository/Edit Offer/Page_Offers/button_Next' is clicked on
+
+2020-02-03 15:39:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Offer/Page_Offers/button_Next' is clicked on
+
+2020-02-03 15:39:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Offer/Page_Offers/button_Make Active")): Object: 'Object Repository/Edit Offer/Page_Offers/button_Make Active' is clicked on
+
+2020-02-03 15:39:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Offer/Page_Offers/button_Make Active' is clicked on
+
+2020-02-03 15:39:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Offer/Page_Offers/button_Yes Make Active")): Object: 'Object Repository/Edit Offer/Page_Offers/button_Yes Make Active' is clicked on
+
+2020-02-03 15:39:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Offer/Page_Offers/button_Yes Make Active' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test Scenarios/Modules/Content Management/OFFERS/Delete Offer" time="7.14" classname="Test Cases/Test Scenarios/Modules/Content Management/OFFERS/Delete Offer" status="PASSED">
+         <system-out><![CDATA[2020-02-03 15:39:15 - [TEST_CASE][PASSED] - Test Cases/Test Scenarios/Modules/Content Management/OFFERS/Delete Offer: Test Cases/Test Scenarios/Modules/Content Management/OFFERS/Delete Offer
+
+2020-02-03 15:39:15 - [TEST_STEP][NOT_RUN] - click(findTestObject("Create Offer/Page_Dashboard/div_Content")): NOT_RUN: click(findTestObject("Create Offer/Page_Dashboard/div_Content"))
+
+2020-02-03 15:39:15 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Create Offer/Page_Dashboard/div_Content"))
+
+2020-02-03 15:39:15 - [TEST_STEP][NOT_RUN] - click(findTestObject("Create Offer/Page_Templates/a_Offers")): NOT_RUN: click(findTestObject("Create Offer/Page_Templates/a_Offers"))
+
+2020-02-03 15:39:15 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Create Offer/Page_Templates/a_Offers"))
+
+2020-02-03 15:39:15 - [TEST_STEP][PASSED] - click(findTestObject("Delete Offer/hamburger")): Object: 'Object Repository/Delete Offer/hamburger' is clicked on
+
+2020-02-03 15:39:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Delete Offer/hamburger' is clicked on
+
+2020-02-03 15:39:20 - [TEST_STEP][PASSED] - click(findTestObject("Delete Offer/delete")): Object: 'Object Repository/Delete Offer/delete' is clicked on
+
+2020-02-03 15:39:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Delete Offer/delete' is clicked on
+
+2020-02-03 15:39:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Delete Offer/Page_Offers/button_Yes")): Object: 'Object Repository/Delete Offer/Page_Offers/button_Yes' is clicked on
+
+2020-02-03 15:39:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Delete Offer/Page_Offers/button_Yes' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test Scenarios/Modules/Logout/GSM Logout" time="4.633" classname="Test Cases/Test Scenarios/Modules/Logout/GSM Logout" status="PASSED">
+         <system-out><![CDATA[2020-02-03 15:39:22 - [TEST_CASE][PASSED] - Test Cases/Test Scenarios/Modules/Logout/GSM Logout: Test Cases/Test Scenarios/Modules/Logout/GSM Logout
+
+2020-02-03 15:39:22 - [TEST_STEP][PASSED] - click(findTestObject("GSM Logout/Page_Templates/a_Help_user-panel-dropdown-4")): Object: 'Object Repository/GSM Logout/Page_Templates/a_Help_user-panel-dropdown-4' is clicked on
+
+2020-02-03 15:39:26 - [MESSAGE][PASSED] - Object: 'Object Repository/GSM Logout/Page_Templates/a_Help_user-panel-dropdown-4' is clicked on
+
+2020-02-03 15:39:26 - [TEST_STEP][PASSED] - click(findTestObject("GSM Logout/Page_Templates/a_Log Out")): Object: 'Object Repository/GSM Logout/Page_Templates/a_Log Out' is clicked on
+
+2020-02-03 15:39:27 - [MESSAGE][PASSED] - Object: 'Object Repository/GSM Logout/Page_Templates/a_Log Out' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-02-03 15:38:01 - [TEST_SUITE][PASSED] - Offers Regression: Test Cases/Test Scenarios/Modules/Logout/GSM Logout]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
