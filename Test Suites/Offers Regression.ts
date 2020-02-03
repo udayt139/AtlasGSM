@@ -38,7 +38,7 @@
       <guid>eb6bb8ab-5762-4c5b-852a-f987b64d5c91</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Test Scenarios/Modules/Content Management/OFFERS/Create Offer</testCaseId>
+      <testCaseId>Test Cases/Test Scenarios/Modules/Content Management/OFFERS/CreateOffer</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
