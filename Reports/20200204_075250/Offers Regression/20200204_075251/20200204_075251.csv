@@ -1,0 +1,54 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Offers Regression,Firefox 72.0,,,2020-02-04 07:53:14,2020-02-04 07:55:09,1m - 54.887s,PASSED
+,,,,,,,
+Test Cases/Test Scenarios/Modules/Login/GSM Login,Firefox 72.0,,,2020-02-04 07:53:15,2020-02-04 07:54:04,48.757s,PASSED
+"openBrowser("""")",Firefox 72.0,,,2020-02-04 07:53:19,2020-02-04 07:53:40,21.516s,PASSED
+navigateToUrl(url),Firefox 72.0,,,2020-02-04 07:53:40,2020-02-04 07:53:53,12.927s,PASSED
+maximizeWindow(),Firefox 72.0,,,2020-02-04 07:53:53,2020-02-04 07:53:53,0.031s,PASSED
+"setText(findTestObject(""Object Repository/GSM Login/Page_GSM Login/input_Email Address_email""), username)",Firefox 72.0,,,2020-02-04 07:53:53,2020-02-04 07:53:55,1.239s,PASSED
+delay(2),Firefox 72.0,,,2020-02-04 07:53:55,2020-02-04 07:53:57,2.515s,PASSED
+"setText(findTestObject(""Object Repository/GSM Login/Page_GSM Login/input_Password_password""), password)",Firefox 72.0,,,2020-02-04 07:53:57,2020-02-04 07:53:58,0.552s,PASSED
+"click(findTestObject(""Object Repository/GSM Login/Page_GSM Login/button_Log In""))",Firefox 72.0,,,2020-02-04 07:53:58,2020-02-04 07:53:59,1.002s,PASSED
+delay(5),Firefox 72.0,,,2020-02-04 07:53:59,2020-02-04 07:54:04,5.006s,PASSED
+,,,,,,,
+Test Cases/Test Scenarios/Modules/Content Management/OFFERS/Create Offer,Firefox 72.0,,,2020-02-04 07:54:04,2020-02-04 07:54:38,34.445s,PASSED
+"click(findTestObject(""Object Repository/Create Offer/Page_Dashboard/div_Content""))",Firefox 72.0,,,2020-02-04 07:54:07,2020-02-04 07:54:09,2.405s,PASSED
+"click(findTestObject(""Object Repository/Create Offer/Page_Templates/a_Offers""))",Firefox 72.0,,,2020-02-04 07:54:09,2020-02-04 07:54:17,7.267s,PASSED
+"click(findTestObject(""Object Repository/Create Offer/Page_Offers/a_New Offer""))",Firefox 72.0,,,2020-02-04 07:54:17,2020-02-04 07:54:18,1.659s,PASSED
+"setText(findTestObject(""Object Repository/Create Offer/Page_Offers/input_Offer Name_name""), OfferName)",Firefox 72.0,,,2020-02-04 07:54:18,2020-02-04 07:54:22,3.541s,PASSED
+"click(findTestObject(""Object Repository/Create Offer/Page_Offers/input_Marketing Category_marketingCategory""))",Firefox 72.0,,,2020-02-04 07:54:22,2020-02-04 07:54:23,0.869s,PASSED
+"setText(findTestObject(""Object Repository/Create Offer/Page_Offers/textarea_Offer Description_description""), OfferDescription)",Firefox 72.0,,,2020-02-04 07:54:23,2020-02-04 07:54:24,1.138s,PASSED
+"setText(findTestObject(""Object Repository/Create Offer/Page_Offers/input_Objects set to expire will be automatically archived_expiration""), Expiration)",Firefox 72.0,,,2020-02-04 07:54:24,2020-02-04 07:54:25,0.982s,PASSED
+"click(findTestObject(""Object Repository/Create Offer/Page_Offers/button_Select""))",Firefox 72.0,,,2020-02-04 07:54:25,2020-02-04 07:54:26,0.929s,PASSED
+"click(findTestObject(""Object Repository/Create Offer/Page_Offers/a_English (US)""))",Firefox 72.0,,,2020-02-04 07:54:26,2020-02-04 07:54:26,0.679s,PASSED
+"click(findTestObject(""Object Repository/Create Offer/Page_Offers/button_Next""))",Firefox 72.0,,,2020-02-04 07:54:26,2020-02-04 07:54:27,0.668s,PASSED
+"setText(findTestObject(""Object Repository/Create Offer/Page_Offers/textarea_Title_title""), Title)",Firefox 72.0,,,2020-02-04 07:54:27,2020-02-04 07:54:31,4.320s,PASSED
+"setText(findTestObject(""Object Repository/Create Offer/Page_Offers/textarea_Subtitle_subtitle""), Subtitle)",Firefox 72.0,,,2020-02-04 07:54:31,2020-02-04 07:54:33,1.170s,PASSED
+"setText(findTestObject(""Object Repository/Create Offer/Page_Offers/textarea_Body_body""), Body)",Firefox 72.0,,,2020-02-04 07:54:33,2020-02-04 07:54:34,1.159s,PASSED
+"setText(findTestObject(""Object Repository/Create Offer/Page_Offers/input_Offer_offer""), OfferValue)",Firefox 72.0,,,2020-02-04 07:54:34,2020-02-04 07:54:35,1.064s,PASSED
+"click(findTestObject(""Object Repository/Create Offer/Page_Offers/button_Select_1""))",Firefox 72.0,,,2020-02-04 07:54:35,2020-02-04 07:54:36,0.890s,PASSED
+"click(findTestObject(""Object Repository/Create Offer/Page_Offers/a_No Expiration Date""))",Firefox 72.0,,,2020-02-04 07:54:36,2020-02-04 07:54:36,0.670s,PASSED
+"setText(findTestObject(""Object Repository/Create Offer/Page_Offers/textarea_Terms  Conditions_termsAndConditions""), TermsAndConditions)",Firefox 72.0,,,2020-02-04 07:54:36,2020-02-04 07:54:37,0.888s,PASSED
+"click(findTestObject(""Object Repository/Create Offer/Page_Offers/button_Create""))",Firefox 72.0,,,2020-02-04 07:54:37,2020-02-04 07:54:38,0.910s,PASSED
+,,,,,,,
+Test Cases/Test Scenarios/Modules/Content Management/OFFERS/Edit Offer,Firefox 72.0,,,2020-02-04 07:54:38,2020-02-04 07:54:56,17.652s,PASSED
+"click(findTestObject(""Edit Offer/Page_Dashboard/div_Content""))",Firefox 72.0,,,2020-02-04 07:54:38,2020-02-04 07:54:38,0.003s,NOT_RUN
+"click(findTestObject(""Create Offer/Page_Templates/a_Offers""))",Firefox 72.0,,,2020-02-04 07:54:38,2020-02-04 07:54:39,0.002s,NOT_RUN
+"click(findTestObject(""Edit Offer/hamburger""))",Firefox 72.0,,,2020-02-04 07:54:39,2020-02-04 07:54:44,5.187s,PASSED
+"click(findTestObject(""Edit Offer/Page_Offers/edit""))",Firefox 72.0,,,2020-02-04 07:54:44,2020-02-04 07:54:44,0.735s,PASSED
+"click(findTestObject(""Edit Offer/Page_Offers/button_Yes Edit""))",Firefox 72.0,,,2020-02-04 07:54:44,2020-02-04 07:54:45,0.970s,PASSED
+"click(findTestObject(""Create Offer/Page_Offers/radiobutton_Retention""))",Firefox 72.0,,,2020-02-04 07:54:45,2020-02-04 07:54:52,6.185s,PASSED
+"click(findTestObject(""Object Repository/Edit Offer/Page_Offers/button_Next""))",Firefox 72.0,,,2020-02-04 07:54:52,2020-02-04 07:54:52,0.601s,PASSED
+"click(findTestObject(""Object Repository/Edit Offer/Page_Offers/button_Make Active""))",Firefox 72.0,,,2020-02-04 07:54:52,2020-02-04 07:54:55,2.783s,PASSED
+"click(findTestObject(""Object Repository/Edit Offer/Page_Offers/button_Yes Make Active""))",Firefox 72.0,,,2020-02-04 07:54:55,2020-02-04 07:54:56,0.809s,PASSED
+,,,,,,,
+Test Cases/Test Scenarios/Modules/Content Management/OFFERS/Delete Offer,Firefox 72.0,,,2020-02-04 07:54:56,2020-02-04 07:55:02,6.613s,PASSED
+"click(findTestObject(""Create Offer/Page_Dashboard/div_Content""))",Firefox 72.0,,,2020-02-04 07:54:56,2020-02-04 07:54:56,0.001s,NOT_RUN
+"click(findTestObject(""Create Offer/Page_Templates/a_Offers""))",Firefox 72.0,,,2020-02-04 07:54:56,2020-02-04 07:54:56,0.001s,NOT_RUN
+"click(findTestObject(""Delete Offer/hamburger""))",Firefox 72.0,,,2020-02-04 07:54:56,2020-02-04 07:55:01,4.150s,PASSED
+"click(findTestObject(""Delete Offer/delete""))",Firefox 72.0,,,2020-02-04 07:55:01,2020-02-04 07:55:01,0.628s,PASSED
+"click(findTestObject(""Object Repository/Delete Offer/Page_Offers/button_Yes""))",Firefox 72.0,,,2020-02-04 07:55:01,2020-02-04 07:55:02,1.166s,PASSED
+,,,,,,,
+Test Cases/Test Scenarios/Modules/Logout/GSM Logout,Firefox 72.0,,,2020-02-04 07:55:02,2020-02-04 07:55:09,6.457s,PASSED
+"click(findTestObject(""GSM Logout/Page_Templates/a_Help_user-panel-dropdown-4""))",Firefox 72.0,,,2020-02-04 07:55:03,2020-02-04 07:55:08,5.238s,PASSED
+"click(findTestObject(""GSM Logout/Page_Templates/a_Log Out""))",Firefox 72.0,,,2020-02-04 07:55:08,2020-02-04 07:55:09,0.803s,PASSED

@@ -1,0 +1,52 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Offers Regression,Edge 18,,,2020-02-04 07:53:25,2020-02-04 07:56:25,2m - 59.968s,FAILED
+,,,,,,,
+Test Cases/Test Scenarios/Modules/Login/GSM Login,Edge 18,,,2020-02-04 07:53:25,2020-02-04 07:54:04,38.412s,PASSED
+"openBrowser("""")",Edge 18,,,2020-02-04 07:53:29,2020-02-04 07:53:38,9.435s,PASSED
+navigateToUrl(url),Edge 18,,,2020-02-04 07:53:38,2020-02-04 07:53:53,14.351s,PASSED
+maximizeWindow(),Edge 18,,,2020-02-04 07:53:53,2020-02-04 07:53:53,0.146s,PASSED
+"setText(findTestObject(""Object Repository/GSM Login/Page_GSM Login/input_Email Address_email""), username)",Edge 18,,,2020-02-04 07:53:53,2020-02-04 07:53:55,1.745s,PASSED
+delay(2),Edge 18,,,2020-02-04 07:53:55,2020-02-04 07:53:57,2.467s,PASSED
+"setText(findTestObject(""Object Repository/GSM Login/Page_GSM Login/input_Password_password""), password)",Edge 18,,,2020-02-04 07:53:57,2020-02-04 07:53:58,1.074s,PASSED
+"click(findTestObject(""Object Repository/GSM Login/Page_GSM Login/button_Log In""))",Edge 18,,,2020-02-04 07:53:58,2020-02-04 07:53:59,0.759s,PASSED
+delay(5),Edge 18,,,2020-02-04 07:53:59,2020-02-04 07:54:04,5.003s,PASSED
+,,,,,,,
+Test Cases/Test Scenarios/Modules/Content Management/OFFERS/Create Offer,Edge 18,,,2020-02-04 07:54:04,2020-02-04 07:54:42,38.463s,PASSED
+"click(findTestObject(""Object Repository/Create Offer/Page_Dashboard/div_Content""))",Edge 18,,,2020-02-04 07:54:07,2020-02-04 07:54:12,5.223s,PASSED
+"click(findTestObject(""Object Repository/Create Offer/Page_Templates/a_Offers""))",Edge 18,,,2020-02-04 07:54:12,2020-02-04 07:54:14,1.296s,PASSED
+"click(findTestObject(""Object Repository/Create Offer/Page_Offers/a_New Offer""))",Edge 18,,,2020-02-04 07:54:14,2020-02-04 07:54:15,1.115s,PASSED
+"setText(findTestObject(""Object Repository/Create Offer/Page_Offers/input_Offer Name_name""), OfferName)",Edge 18,,,2020-02-04 07:54:15,2020-02-04 07:54:19,4.631s,PASSED
+"click(findTestObject(""Object Repository/Create Offer/Page_Offers/input_Marketing Category_marketingCategory""))",Edge 18,,,2020-02-04 07:54:19,2020-02-04 07:54:20,0.410s,PASSED
+"setText(findTestObject(""Object Repository/Create Offer/Page_Offers/textarea_Offer Description_description""), OfferDescription)",Edge 18,,,2020-02-04 07:54:20,2020-02-04 07:54:21,1.275s,PASSED
+"setText(findTestObject(""Object Repository/Create Offer/Page_Offers/input_Objects set to expire will be automatically archived_expiration""), Expiration)",Edge 18,,,2020-02-04 07:54:21,2020-02-04 07:54:22,1.142s,PASSED
+"click(findTestObject(""Object Repository/Create Offer/Page_Offers/button_Select""))",Edge 18,,,2020-02-04 07:54:22,2020-02-04 07:54:23,0.401s,PASSED
+"click(findTestObject(""Object Repository/Create Offer/Page_Offers/a_English (US)""))",Edge 18,,,2020-02-04 07:54:23,2020-02-04 07:54:23,0.485s,PASSED
+"click(findTestObject(""Object Repository/Create Offer/Page_Offers/button_Next""))",Edge 18,,,2020-02-04 07:54:23,2020-02-04 07:54:24,0.506s,PASSED
+"setText(findTestObject(""Object Repository/Create Offer/Page_Offers/textarea_Title_title""), Title)",Edge 18,,,2020-02-04 07:54:24,2020-02-04 07:54:34,10.243s,PASSED
+"setText(findTestObject(""Object Repository/Create Offer/Page_Offers/textarea_Subtitle_subtitle""), Subtitle)",Edge 18,,,2020-02-04 07:54:34,2020-02-04 07:54:35,1.657s,PASSED
+"setText(findTestObject(""Object Repository/Create Offer/Page_Offers/textarea_Body_body""), Body)",Edge 18,,,2020-02-04 07:54:35,2020-02-04 07:54:37,1.896s,PASSED
+"setText(findTestObject(""Object Repository/Create Offer/Page_Offers/input_Offer_offer""), OfferValue)",Edge 18,,,2020-02-04 07:54:37,2020-02-04 07:54:39,1.672s,PASSED
+"click(findTestObject(""Object Repository/Create Offer/Page_Offers/button_Select_1""))",Edge 18,,,2020-02-04 07:54:39,2020-02-04 07:54:40,0.487s,PASSED
+"click(findTestObject(""Object Repository/Create Offer/Page_Offers/a_No Expiration Date""))",Edge 18,,,2020-02-04 07:54:40,2020-02-04 07:54:40,0.451s,PASSED
+"setText(findTestObject(""Object Repository/Create Offer/Page_Offers/textarea_Terms  Conditions_termsAndConditions""), TermsAndConditions)",Edge 18,,,2020-02-04 07:54:40,2020-02-04 07:54:42,1.922s,PASSED
+"click(findTestObject(""Object Repository/Create Offer/Page_Offers/button_Create""))",Edge 18,,,2020-02-04 07:54:42,2020-02-04 07:54:42,0.465s,PASSED
+,,,,,,,
+Test Cases/Test Scenarios/Modules/Content Management/OFFERS/Edit Offer,Edge 18,,,2020-02-04 07:54:42,2020-02-04 07:55:40,57.400s,FAILED
+"click(findTestObject(""Edit Offer/Page_Dashboard/div_Content""))",Edge 18,,,2020-02-04 07:54:43,2020-02-04 07:54:43,0.005s,NOT_RUN
+"click(findTestObject(""Create Offer/Page_Templates/a_Offers""))",Edge 18,,,2020-02-04 07:54:43,2020-02-04 07:54:43,0.002s,NOT_RUN
+"click(findTestObject(""Edit Offer/hamburger""))",Edge 18,,,2020-02-04 07:54:43,2020-02-04 07:54:47,4.155s,PASSED
+"click(findTestObject(""Edit Offer/Page_Offers/edit""))",Edge 18,,,2020-02-04 07:54:47,2020-02-04 07:54:47,0.358s,PASSED
+"click(findTestObject(""Edit Offer/Page_Offers/button_Yes Edit""))",Edge 18,,,2020-02-04 07:54:47,2020-02-04 07:54:48,0.462s,PASSED
+"click(findTestObject(""Create Offer/Page_Offers/radiobutton_Retention""))",Edge 18,,,2020-02-04 07:54:48,2020-02-04 07:54:52,4.010s,PASSED
+"click(findTestObject(""Object Repository/Edit Offer/Page_Offers/button_Next""))",Edge 18,,,2020-02-04 07:54:52,2020-02-04 07:54:52,0.381s,PASSED
+"click(findTestObject(""Object Repository/Edit Offer/Page_Offers/button_Make Active""))",Edge 18,,,2020-02-04 07:54:52,2020-02-04 07:54:57,4.967s,PASSED
+"click(findTestObject(""Object Repository/Edit Offer/Page_Offers/button_Yes Make Active""))",Edge 18,,,2020-02-04 07:54:57,2020-02-04 07:55:40,42.647s,FAILED
+,,,,,,,
+Test Cases/Test Scenarios/Modules/Content Management/OFFERS/Delete Offer,Edge 18,,,2020-02-04 07:55:40,2020-02-04 07:56:24,44.022s,FAILED
+"click(findTestObject(""Create Offer/Page_Dashboard/div_Content""))",Edge 18,,,2020-02-04 07:55:40,2020-02-04 07:55:40,0.003s,NOT_RUN
+"click(findTestObject(""Create Offer/Page_Templates/a_Offers""))",Edge 18,,,2020-02-04 07:55:40,2020-02-04 07:55:40,0.001s,NOT_RUN
+"click(findTestObject(""Delete Offer/hamburger""))",Edge 18,,,2020-02-04 07:55:40,2020-02-04 07:56:24,43.438s,FAILED
+,,,,,,,
+Test Cases/Test Scenarios/Modules/Logout/GSM Logout,Edge 18,,,2020-02-04 07:56:24,2020-02-04 07:56:25,1.000s,PASSED
+"click(findTestObject(""GSM Logout/Page_Templates/a_Help_user-panel-dropdown-4""))",Edge 18,,,2020-02-04 07:56:24,2020-02-04 07:56:24,0.345s,PASSED
+"click(findTestObject(""GSM Logout/Page_Templates/a_Log Out""))",Edge 18,,,2020-02-04 07:56:24,2020-02-04 07:56:25,0.394s,PASSED

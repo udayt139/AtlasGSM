@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Offers Regression" time="196.717" tests="5" failures="2" errors="0">
+   <testsuite name="Offers Regression" tests="5" failures="2" errors="0" time="196.717" timestamp="2020-02-04 07:53:25" hostname="Dell - DESKTOP-A4R0EHC" id="Test Suites/Offers Regression">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Dell\\git\\AtlasGSM\\Reports\\20200204_075250\\Offers Regression\\20200204_075252"/>
+         <property name="logFiles" value="C:\\Users\\Dell\\git\\AtlasGSM\\Reports\\20200204_075250\\Offers Regression\\20200204_075252\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Dell\\git\\AtlasGSM\\Reports\\20200204_075250\\Offers Regression\\20200204_075252\\1580783140097.png, C:\\Users\\Dell\\git\\AtlasGSM\\Reports\\20200204_075250\\Offers Regression\\20200204_075252\\1580783184247.png"/>
+         <property name="hostName" value="Dell - DESKTOP-A4R0EHC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.0.4.1"/>
+         <property name="browser" value="Edge 18"/>
+         <property name="hostAddress" value="172.20.10.3"/>
+         <property name="sessionId" value="DB05A1E9-3A33-494E-A753-81F6E6C7AD3A"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Test Scenarios/Modules/Login/GSM Login" time="38.412" classname="Test Cases/Test Scenarios/Modules/Login/GSM Login" status="PASSED">
+         <system-out><![CDATA[2020-02-04 07:53:25 - [TEST_CASE][PASSED] - Test Cases/Test Scenarios/Modules/Login/GSM Login: Test Cases/Test Scenarios/Modules/Login/GSM Login
+
+2020-02-04 07:53:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-02-04 07:53:30 - [MESSAGE][INFO] - Starting 'Edge' driver
+
+2020-02-04 07:53:31 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-02-04 07:53:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-02-04 07:53:38 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://sandbox.gsm.auto/' successfully
+
+2020-02-04 07:53:53 - [MESSAGE][PASSED] - Navigate to 'https://sandbox.gsm.auto/' successfully
+
+2020-02-04 07:53:53 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-02-04 07:53:53 - [MESSAGE][PASSED] - Current window maximized
+
+2020-02-04 07:53:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/GSM Login/Page_GSM Login/input_Email Address_email"), username): Text 'sankaran@totient.co.in' is set on object 'Object Repository/GSM Login/Page_GSM Login/input_Email Address_email'
+
+2020-02-04 07:53:55 - [MESSAGE][PASSED] - Text 'sankaran@totient.co.in' is set on object 'Object Repository/GSM Login/Page_GSM Login/input_Email Address_email'
+
+2020-02-04 07:53:55 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-02-04 07:53:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-02-04 07:53:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/GSM Login/Page_GSM Login/input_Password_password"), password): Text 'sandbox85!' is set on object 'Object Repository/GSM Login/Page_GSM Login/input_Password_password'
+
+2020-02-04 07:53:58 - [MESSAGE][PASSED] - Text 'sandbox85!' is set on object 'Object Repository/GSM Login/Page_GSM Login/input_Password_password'
+
+2020-02-04 07:53:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GSM Login/Page_GSM Login/button_Log In")): Object: 'Object Repository/GSM Login/Page_GSM Login/button_Log In' is clicked on
+
+2020-02-04 07:53:59 - [MESSAGE][PASSED] - Object: 'Object Repository/GSM Login/Page_GSM Login/button_Log In' is clicked on
+
+2020-02-04 07:53:59 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-02-04 07:54:04 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test Scenarios/Modules/Content Management/OFFERS/Create Offer" time="38.463" classname="Test Cases/Test Scenarios/Modules/Content Management/OFFERS/Create Offer" status="PASSED">
+         <system-out><![CDATA[2020-02-04 07:54:04 - [TEST_CASE][PASSED] - Test Cases/Test Scenarios/Modules/Content Management/OFFERS/Create Offer: Test Cases/Test Scenarios/Modules/Content Management/OFFERS/Create Offer
+
+2020-02-04 07:54:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Offer/Page_Dashboard/div_Content")): Object: 'Object Repository/Create Offer/Page_Dashboard/div_Content' is clicked on
+
+2020-02-04 07:54:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Offer/Page_Dashboard/div_Content' is clicked on
+
+2020-02-04 07:54:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Offer/Page_Templates/a_Offers")): Object: 'Object Repository/Create Offer/Page_Templates/a_Offers' is clicked on
+
+2020-02-04 07:54:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Offer/Page_Templates/a_Offers' is clicked on
+
+2020-02-04 07:54:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Offer/Page_Offers/a_New Offer")): Object: 'Object Repository/Create Offer/Page_Offers/a_New Offer' is clicked on
+
+2020-02-04 07:54:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Offer/Page_Offers/a_New Offer' is clicked on
+
+2020-02-04 07:54:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Offer/Page_Offers/input_Offer Name_name"), OfferName): Text 'Offer 1 04-02-2020 07:54:05' is set on object 'Object Repository/Create Offer/Page_Offers/input_Offer Name_name'
+
+2020-02-04 07:54:19 - [MESSAGE][PASSED] - Text 'Offer 1 04-02-2020 07:54:05' is set on object 'Object Repository/Create Offer/Page_Offers/input_Offer Name_name'
+
+2020-02-04 07:54:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Offer/Page_Offers/input_Marketing Category_marketingCategory")): Object: 'Object Repository/Create Offer/Page_Offers/input_Marketing Category_marketingCategory' is clicked on
+
+2020-02-04 07:54:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Offer/Page_Offers/input_Marketing Category_marketingCategory' is clicked on
+
+2020-02-04 07:54:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Offer/Page_Offers/textarea_Offer Description_description"), OfferDescription): Text 'Offer Description - Offer 1' is set on object 'Object Repository/Create Offer/Page_Offers/textarea_Offer Description_description'
+
+2020-02-04 07:54:21 - [MESSAGE][PASSED] - Text 'Offer Description - Offer 1' is set on object 'Object Repository/Create Offer/Page_Offers/textarea_Offer Description_description'
+
+2020-02-04 07:54:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Offer/Page_Offers/input_Objects set to expire will be automatically archived_expiration"), Expiration): Text '05/02/2020' is set on object 'Object Repository/Create Offer/Page_Offers/input_Objects set to expire will be automatically archived_expiration'
+
+2020-02-04 07:54:22 - [MESSAGE][PASSED] - Text '05/02/2020' is set on object 'Object Repository/Create Offer/Page_Offers/input_Objects set to expire will be automatically archived_expiration'
+
+2020-02-04 07:54:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Offer/Page_Offers/button_Select")): Object: 'Object Repository/Create Offer/Page_Offers/button_Select' is clicked on
+
+2020-02-04 07:54:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Offer/Page_Offers/button_Select' is clicked on
+
+2020-02-04 07:54:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Offer/Page_Offers/a_English (US)")): Object: 'Object Repository/Create Offer/Page_Offers/a_English (US)' is clicked on
+
+2020-02-04 07:54:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Offer/Page_Offers/a_English (US)' is clicked on
+
+2020-02-04 07:54:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Offer/Page_Offers/button_Next")): Object: 'Object Repository/Create Offer/Page_Offers/button_Next' is clicked on
+
+2020-02-04 07:54:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Offer/Page_Offers/button_Next' is clicked on
+
+2020-02-04 07:54:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Offer/Page_Offers/textarea_Title_title"), Title): Text 'Title - Offer 1' is set on object 'Object Repository/Create Offer/Page_Offers/textarea_Title_title'
+
+2020-02-04 07:54:34 - [MESSAGE][PASSED] - Text 'Title - Offer 1' is set on object 'Object Repository/Create Offer/Page_Offers/textarea_Title_title'
+
+2020-02-04 07:54:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Offer/Page_Offers/textarea_Subtitle_subtitle"), Subtitle): Text 'Subtitle - Offer 1' is set on object 'Object Repository/Create Offer/Page_Offers/textarea_Subtitle_subtitle'
+
+2020-02-04 07:54:35 - [MESSAGE][PASSED] - Text 'Subtitle - Offer 1' is set on object 'Object Repository/Create Offer/Page_Offers/textarea_Subtitle_subtitle'
+
+2020-02-04 07:54:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Offer/Page_Offers/textarea_Body_body"), Body): Text 'Body - Offer 1' is set on object 'Object Repository/Create Offer/Page_Offers/textarea_Body_body'
+
+2020-02-04 07:54:37 - [MESSAGE][PASSED] - Text 'Body - Offer 1' is set on object 'Object Repository/Create Offer/Page_Offers/textarea_Body_body'
+
+2020-02-04 07:54:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Offer/Page_Offers/input_Offer_offer"), OfferValue): Text 'Offer Value - Offer 1' is set on object 'Object Repository/Create Offer/Page_Offers/input_Offer_offer'
+
+2020-02-04 07:54:39 - [MESSAGE][PASSED] - Text 'Offer Value - Offer 1' is set on object 'Object Repository/Create Offer/Page_Offers/input_Offer_offer'
+
+2020-02-04 07:54:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Offer/Page_Offers/button_Select_1")): Object: 'Object Repository/Create Offer/Page_Offers/button_Select_1' is clicked on
+
+2020-02-04 07:54:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Offer/Page_Offers/button_Select_1' is clicked on
+
+2020-02-04 07:54:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Offer/Page_Offers/a_No Expiration Date")): Object: 'Object Repository/Create Offer/Page_Offers/a_No Expiration Date' is clicked on
+
+2020-02-04 07:54:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Offer/Page_Offers/a_No Expiration Date' is clicked on
+
+2020-02-04 07:54:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Offer/Page_Offers/textarea_Terms  Conditions_termsAndConditions"), TermsAndConditions): Text 'No Conditions' is set on object 'Object Repository/Create Offer/Page_Offers/textarea_Terms  Conditions_termsAndConditions'
+
+2020-02-04 07:54:42 - [MESSAGE][PASSED] - Text 'No Conditions' is set on object 'Object Repository/Create Offer/Page_Offers/textarea_Terms  Conditions_termsAndConditions'
+
+2020-02-04 07:54:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Offer/Page_Offers/button_Create")): Object: 'Object Repository/Create Offer/Page_Offers/button_Create' is clicked on
+
+2020-02-04 07:54:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Offer/Page_Offers/button_Create' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test Scenarios/Modules/Content Management/OFFERS/Edit Offer" time="57.4" classname="Test Cases/Test Scenarios/Modules/Content Management/OFFERS/Edit Offer" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Test Scenarios/Modules/Content Management/OFFERS/Edit Offer FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Edit Offer/Page_Offers/button_Yes Make Active'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Edit Offer.run(Edit Offer:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580782972938.run(TempTestSuite1580782972938.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Edit Offer/Page_Offers/button_Yes Make Active' located by 'By.xpath: //button[@id='save']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-02-04 07:54:42 - [TEST_CASE][FAILED] - Test Cases/Test Scenarios/Modules/Content Management/OFFERS/Edit Offer: Test Cases/Test Scenarios/Modules/Content Management/OFFERS/Edit Offer FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Edit Offer/Page_Offers/button_Yes Make Active'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Edit Offer.run(Edit Offer:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580782972938.run(TempTestSuite1580782972938.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Edit Offer/Page_Offers/button_Yes Make Active' located by 'By.xpath: //button[@id='save']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-02-04 07:54:43 - [TEST_STEP][NOT_RUN] - click(findTestObject("Edit Offer/Page_Dashboard/div_Content")): NOT_RUN: click(findTestObject("Edit Offer/Page_Dashboard/div_Content"))
+
+2020-02-04 07:54:43 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Edit Offer/Page_Dashboard/div_Content"))
+
+2020-02-04 07:54:43 - [TEST_STEP][NOT_RUN] - click(findTestObject("Create Offer/Page_Templates/a_Offers")): NOT_RUN: click(findTestObject("Create Offer/Page_Templates/a_Offers"))
+
+2020-02-04 07:54:43 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Create Offer/Page_Templates/a_Offers"))
+
+2020-02-04 07:54:43 - [TEST_STEP][PASSED] - click(findTestObject("Edit Offer/hamburger")): Object: 'Object Repository/Edit Offer/hamburger' is clicked on
+
+2020-02-04 07:54:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Offer/hamburger' is clicked on
+
+2020-02-04 07:54:47 - [TEST_STEP][PASSED] - click(findTestObject("Edit Offer/Page_Offers/edit")): Object: 'Object Repository/Edit Offer/Page_Offers/edit' is clicked on
+
+2020-02-04 07:54:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Offer/Page_Offers/edit' is clicked on
+
+2020-02-04 07:54:47 - [TEST_STEP][PASSED] - click(findTestObject("Edit Offer/Page_Offers/button_Yes Edit")): Object: 'Object Repository/Edit Offer/Page_Offers/button_Yes Edit' is clicked on
+
+2020-02-04 07:54:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Offer/Page_Offers/button_Yes Edit' is clicked on
+
+2020-02-04 07:54:48 - [TEST_STEP][PASSED] - click(findTestObject("Create Offer/Page_Offers/radiobutton_Retention")): Object: 'Object Repository/Create Offer/Page_Offers/radiobutton_Retention' is clicked on
+
+2020-02-04 07:54:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Offer/Page_Offers/radiobutton_Retention' is clicked on
+
+2020-02-04 07:54:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Offer/Page_Offers/button_Next")): Object: 'Object Repository/Edit Offer/Page_Offers/button_Next' is clicked on
+
+2020-02-04 07:54:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Offer/Page_Offers/button_Next' is clicked on
+
+2020-02-04 07:54:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Offer/Page_Offers/button_Make Active")): Object: 'Object Repository/Edit Offer/Page_Offers/button_Make Active' is clicked on
+
+2020-02-04 07:54:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Offer/Page_Offers/button_Make Active' is clicked on
+
+2020-02-04 07:54:57 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Edit Offer/Page_Offers/button_Yes Make Active")): Unable to click on object 'Object Repository/Edit Offer/Page_Offers/button_Yes Make Active' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Edit Offer/Page_Offers/button_Yes Make Active'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Edit Offer.run(Edit Offer:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580782972938.run(TempTestSuite1580782972938.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Edit Offer/Page_Offers/button_Yes Make Active' located by 'By.xpath: //button[@id='save']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1570793351791.run(Script1570793351791.groovy:33)
+	... 13 more
+)
+
+2020-02-04 07:55:40 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[@id='save']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-02-04 07:55:40 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Edit Offer/Page_Offers/button_Yes Make Active' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Edit Offer/Page_Offers/button_Yes Make Active'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Edit Offer.run(Edit Offer:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580782972938.run(TempTestSuite1580782972938.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Edit Offer/Page_Offers/button_Yes Make Active' located by 'By.xpath: //button[@id='save']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1570793351791.run(Script1570793351791.groovy:33)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\Dell\\git\\AtlasGSM\\Reports\\20200204_075250\\Offers Regression\\20200204_075252\\1580783140097.png]]]]></system-out>
+         <system-err><![CDATA[2020-02-04 07:54:42 - [TEST_CASE][FAILED] - Test Cases/Test Scenarios/Modules/Content Management/OFFERS/Edit Offer: Test Cases/Test Scenarios/Modules/Content Management/OFFERS/Edit Offer FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Edit Offer/Page_Offers/button_Yes Make Active'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Edit Offer.run(Edit Offer:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580782972938.run(TempTestSuite1580782972938.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Edit Offer/Page_Offers/button_Yes Make Active' located by 'By.xpath: //button[@id='save']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test Scenarios/Modules/Content Management/OFFERS/Delete Offer" time="44.022" classname="Test Cases/Test Scenarios/Modules/Content Management/OFFERS/Delete Offer" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Test Scenarios/Modules/Content Management/OFFERS/Delete Offer FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Delete Offer/hamburger'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Delete Offer.run(Delete Offer:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580782972938.run(TempTestSuite1580782972938.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Delete Offer/hamburger' located by 'By.xpath: //button[@class='dropdown-toggle btn btn-icon btn-light']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-02-04 07:55:40 - [TEST_CASE][FAILED] - Test Cases/Test Scenarios/Modules/Content Management/OFFERS/Delete Offer: Test Cases/Test Scenarios/Modules/Content Management/OFFERS/Delete Offer FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Delete Offer/hamburger'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Delete Offer.run(Delete Offer:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580782972938.run(TempTestSuite1580782972938.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Delete Offer/hamburger' located by 'By.xpath: //button[@class='dropdown-toggle btn btn-icon btn-light']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-02-04 07:55:40 - [TEST_STEP][NOT_RUN] - click(findTestObject("Create Offer/Page_Dashboard/div_Content")): NOT_RUN: click(findTestObject("Create Offer/Page_Dashboard/div_Content"))
+
+2020-02-04 07:55:40 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Create Offer/Page_Dashboard/div_Content"))
+
+2020-02-04 07:55:40 - [TEST_STEP][NOT_RUN] - click(findTestObject("Create Offer/Page_Templates/a_Offers")): NOT_RUN: click(findTestObject("Create Offer/Page_Templates/a_Offers"))
+
+2020-02-04 07:55:40 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Create Offer/Page_Templates/a_Offers"))
+
+2020-02-04 07:55:40 - [TEST_STEP][FAILED] - click(findTestObject("Delete Offer/hamburger")): Unable to click on object 'Object Repository/Delete Offer/hamburger' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Delete Offer/hamburger'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Delete Offer.run(Delete Offer:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580782972938.run(TempTestSuite1580782972938.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Delete Offer/hamburger' located by 'By.xpath: //button[@class='dropdown-toggle btn btn-icon btn-light']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1570793351774.run(Script1570793351774.groovy:23)
+	... 13 more
+)
+
+2020-02-04 07:56:24 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[@class='dropdown-toggle btn btn-icon btn-light']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-02-04 07:56:24 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Delete Offer/hamburger' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Delete Offer/hamburger'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Delete Offer.run(Delete Offer:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580782972938.run(TempTestSuite1580782972938.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Delete Offer/hamburger' located by 'By.xpath: //button[@class='dropdown-toggle btn btn-icon btn-light']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1570793351774.run(Script1570793351774.groovy:23)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\Dell\\git\\AtlasGSM\\Reports\\20200204_075250\\Offers Regression\\20200204_075252\\1580783184247.png]]]]></system-out>
+         <system-err><![CDATA[2020-02-04 07:55:40 - [TEST_CASE][FAILED] - Test Cases/Test Scenarios/Modules/Content Management/OFFERS/Delete Offer: Test Cases/Test Scenarios/Modules/Content Management/OFFERS/Delete Offer FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Delete Offer/hamburger'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Delete Offer.run(Delete Offer:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580782972938.run(TempTestSuite1580782972938.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Delete Offer/hamburger' located by 'By.xpath: //button[@class='dropdown-toggle btn btn-icon btn-light']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test Scenarios/Modules/Logout/GSM Logout" time="1.0" classname="Test Cases/Test Scenarios/Modules/Logout/GSM Logout" status="PASSED">
+         <system-out><![CDATA[2020-02-04 07:56:24 - [TEST_CASE][PASSED] - Test Cases/Test Scenarios/Modules/Logout/GSM Logout: Test Cases/Test Scenarios/Modules/Logout/GSM Logout
+
+2020-02-04 07:56:24 - [TEST_STEP][PASSED] - click(findTestObject("GSM Logout/Page_Templates/a_Help_user-panel-dropdown-4")): Object: 'Object Repository/GSM Logout/Page_Templates/a_Help_user-panel-dropdown-4' is clicked on
+
+2020-02-04 07:56:24 - [MESSAGE][PASSED] - Object: 'Object Repository/GSM Logout/Page_Templates/a_Help_user-panel-dropdown-4' is clicked on
+
+2020-02-04 07:56:24 - [TEST_STEP][PASSED] - click(findTestObject("GSM Logout/Page_Templates/a_Log Out")): Object: 'Object Repository/GSM Logout/Page_Templates/a_Log Out' is clicked on
+
+2020-02-04 07:56:25 - [MESSAGE][PASSED] - Object: 'Object Repository/GSM Logout/Page_Templates/a_Log Out' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-02-04 07:53:25 - [TEST_SUITE][FAILED] - Offers Regression: Test Cases/Test Scenarios/Modules/Content Management/OFFERS/Edit Offer FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Edit Offer/Page_Offers/button_Yes Make Active'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Edit Offer.run(Edit Offer:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580782972938.run(TempTestSuite1580782972938.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Edit Offer/Page_Offers/button_Yes Make Active' located by 'By.xpath: //button[@id='save']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-02-04 07:53:25 - [TEST_SUITE][FAILED] - Offers Regression: Test Cases/Test Scenarios/Modules/Content Management/OFFERS/Edit Offer FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Edit Offer/Page_Offers/button_Yes Make Active'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Edit Offer.run(Edit Offer:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580782972938.run(TempTestSuite1580782972938.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Edit Offer/Page_Offers/button_Yes Make Active' located by 'By.xpath: //button[@id='save']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>
